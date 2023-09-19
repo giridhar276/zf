@@ -1,0 +1,160 @@
+python objects
+---------------
+Everything in python is object
+***** Every object contains set of methods available*******
+
+
+number
+-------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 34.43
+
+
+string
+--------
+string is sequence of characters.
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell scripting"
+cname = """scala programming"""
+dname = '''hadoop platform'''
+ename = 'z'
+
+
+list ( array in C )
+------
+-list contains set of elements.
+-Elements can be group of numbers or strings or any combination.
+-list elements are defined in []
+
+alist = [10,20,30,40]
+blist = ["unix","java","oracle"]
+clist = [10,20,"java","unix",35.44]
+
+
+tuple ( read only , immutable , uneditable)
+-------
+tuple contains set of elements.
+elements can be numbers or strings or any combination.
+tuple elements are in ().
+**** Elements inside tuple cannot be modified directly *****
+
+atup = (30,40,50,60)
+btup = ("java","unix","oracle")
+ctup = (34,45,"java",45.4)
+
+
+
+dictionary  ( hashmap   hash  json  associativearray )
+---------------------------------------------------------
+dictionary contains elements in the form of keys and values.
+dictionary is defined in {}.
+keys are UNIQUE
+key can be either number or string used to uniquely identify the value.
+value can be number or string or list or tuple or dictionary or set
+                              or any other complex structure.
+
+
+syntax:  object = { key:value , key:value , key:value }
+example:   book = {"chap1":10 ,"chap2":20 ,"chap3":30}
+           data = {1:2,3:4,5:6}
+          book = {"chap1":['rita','US',345] ,"chap2":['gita','IND',45] }
+
+
+
+
+set
+-------
+set is UNORDERED collection of UNIQUE elements of SAME type.
+
+aset = {10,10,20,30,30,20}
+bset = {30,30,30,40,40,50}
+
+
+
+builtin functions
+----------------
+print()
+len()
+input()
+type()
+range()
+
+list()
+tuple()
+int()
+float()
+set()
+dict()
+str()
+
+
+operators
+--------------
+
+arithmetic operators :  + - * %  /
+
+relational operators :   < <= > >= == !=
+
+logical operators :    and    or  not
+
+name = 'python'
+if len(name) == 6  and name.islower():
+     ## do something
+
+
+assignment operators  ( ++  and -- are NOT allowed in python)
+----------------------
+val = 10
+val = val + 1    (or)   val+=1 
+
+
+special operators
+---------------------
++ : concatenation operator  ( objects should be of same type )
+*
+in : check for existence
+as
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
