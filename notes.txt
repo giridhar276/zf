@@ -99,7 +99,7 @@ arithmetic operators :  + - * %  /
 
 relational operators :   < <= > >= == !=
 
-logical operators :    and    or  not
+logical operators :    and   or  not
 
 name = 'python'
 if len(name) == 6  and name.islower():
@@ -118,6 +118,137 @@ special operators
 *
 in : check for existence
 as
+
+
+
+file handling
+-----------------
+
+read     r
+write    w
+append   a
+
+
+opening the file
+-----------------
+
+syntax:   object = open(filename,mode)
+
+example:   fr  = open('languages.txt','r')   # read mode
+           file should exist in order to read the file
+
+           fw  = open('languages.txt','w')   # write mode
+           case1: If file is not existing ... file will be created first
+           case2: if file is already existing.. it overwrites the existing content
+
+           fa  = open('languages.txt','a')   # append mode
+           case1: If file is not existing ... file will be created first
+           case2: if file is already existing.. it appends the new data to the end of file
+
+
+closing the file
+---------------
+fr.close()
+
+
+read operation
+----------------
+
+
+- reading the file line by line
+- fobj.readlines()
+- fobj.read()
+- using csv library for csv files  and json library for json files
+- using pandas library
+
+
+
+exception handling
+--------------------
+There are 2 types of errors
+
+1. syntax error
+2. semantic error or logical errors or runtime errors
+
+
+handling the errors that occurs during the runtime is known as exception handling.
+
+try
+except
+else
+finally
+else
+
+
+
+
+
+display all the builtin functions and exceptions ?
+-----------------------------------------------------
+
+
+dir(__builtin__)
+
+
+There are 2 types of functions
+
+- builtin functions      dir(__builtin__)  ----> will display all the builtin funcs and 										exceptions
+- user defined functions
+
+
+function | definition | subroutine | block | submodule
+------------------------------------------------------
+- resusability purpose
+- define the block once and calling it for multiple times.
+
+
+different ways of passing arguments
+------------------------------------
+
+- fixed arguments
+- default arguments
+- keyword arguments
+- varaible length arguments
+
+
+There are two ways of programming
+
+procedural programming ( top down approach)
+
+object oriented programming
+---------------------------
+
+- principles are common for all the langauges.
+
+
+- class and object
+- escapsulation
+- data hiding
+- inheritance
+- polymorphism
+   - function overloading
+   - operator overloading
+
+
+class
+------
+class is blueprint of the model
+Every class contains attributes( variables) and methods ( functions)
+
+object
+--------
+object is the instance of the class.
+
+self
+------
+self is the instance of the object
+
+
+constructor
+------------
+constructor is a method which is invoked automatically when the object is created
+In other languages.. constructor is defined with classname
+In python... constructor is defined with __init__    (intialize )
 
 
 
